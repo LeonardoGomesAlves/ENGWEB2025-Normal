@@ -1,6 +1,8 @@
 ## Setup DB
 Relativamente ao setup da base de dados, utilizei o script que está na pasta dataset, chamado mongo-import.sh que, dado um ficheiro, um nome de uma base de dados, um nome duma coleção e o nome do container docker, ele importa corretamente o ficheiro para o mongo.
 
+(ficheiro=edicoes.json e collection="edicoes" por exemplo)
+
 As coleções também estão nesta pasta dataset.
 
 ## Persistência de dados
