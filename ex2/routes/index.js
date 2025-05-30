@@ -29,7 +29,7 @@ router.get('/:id', function(req, res, next) {
           var musicas = musicasResp.data
           
           res.render('edicao', {
-            title: `Edição ${edicao.ano} - Eurovisão`,
+            title: `Edição ${edicao[0].ano} - Eurovisão`,
             edicao: edicao,
             musicas: musicas
           })
