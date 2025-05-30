@@ -1,0 +1,52 @@
+1. 
+
+- Coleção edicoes
+db.edicoes.countDocuments()
+
+- Coleção músicas
+db.musicas.countDocuments()
+
+2.
+
+db.edicoes.countDocuments({ "vencedor": "Ireland" })
+
+3.
+
+db.musicas.distinct("interprete").sort()
+
+4.
+
+db.musicas.aggregate([
+  {
+    $group: {
+      _id: "$edicaoId",
+      total_musicas: { $sum: 1 }
+    }
+  },
+  {
+    $sort: { "_id": 1 }
+  }
+])
+
+5.
+
+db.edicoes.aggregate([
+  {
+    $match: {
+      "vencedor": { $ne: "" }
+    }
+  },
+  {
+    $group: {
+      _id: "$vencedor",
+      total_vitorias: { $sum: 1 }
+    }
+  },
+  {
+    $sort: { "total_vitorias": -1 }
+  }
+])
+
+
+
+

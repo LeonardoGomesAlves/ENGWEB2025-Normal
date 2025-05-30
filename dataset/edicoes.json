@@ -1,0 +1,392 @@
+[
+    {
+        "_id": "ed1956",
+        "ano": 1956,
+        "organizacao": "Switzerland",
+        "vencedor": ""
+    },
+    {
+        "_id": "ed1957",
+        "ano": 1957,
+        "organizacao": "Germany",
+        "vencedor": "Netherlands"
+    },
+    {
+        "_id": "ed1958",
+        "ano": 1958,
+        "organizacao": "Netherlands",
+        "vencedor": "France"
+    },
+    {
+        "_id": "ed1959",
+        "ano": 1959,
+        "organizacao": "France",
+        "vencedor": "Netherlands"
+    },
+    {
+        "_id": "ed1960",
+        "ano": 1960,
+        "organizacao": "United_Kingdom",
+        "vencedor": "France"
+    },
+    {
+        "_id": "ed1961",
+        "ano": 1961,
+        "organizacao": "France",
+        "vencedor": "Luxembourg"
+    },
+    {
+        "_id": "ed1962",
+        "ano": 1962,
+        "organizacao": "Luxembourg",
+        "vencedor": "France"
+    },
+    {
+        "_id": "ed1963",
+        "ano": 1963,
+        "organizacao": "United_Kingdom",
+        "vencedor": "Denmark"
+    },
+    {
+        "_id": "ed1964",
+        "ano": 1964,
+        "organizacao": "Denmark",
+        "vencedor": "Italy"
+    },
+    {
+        "_id": "ed1965",
+        "ano": 1965,
+        "organizacao": "Italy",
+        "vencedor": "Luxembourg"
+    },
+    {
+        "_id": "ed1966",
+        "ano": 1966,
+        "organizacao": "Luxembourg",
+        "vencedor": "Austria"
+    },
+    {
+        "_id": "ed1967",
+        "ano": 1967,
+        "organizacao": "Austria",
+        "vencedor": "United_Kingdom"
+    },
+    {
+        "_id": "ed1968",
+        "ano": 1968,
+        "organizacao": "United_Kingdom",
+        "vencedor": "Spain"
+    },
+    {
+        "_id": "ed1969",
+        "ano": 1969,
+        "organizacao": "Spain",
+        "vencedor": "Spain"
+    },
+    {
+        "_id": "ed1970",
+        "ano": 1970,
+        "organizacao": "Netherlands",
+        "vencedor": "Ireland"
+    },
+    {
+        "_id": "ed1971",
+        "ano": 1971,
+        "organizacao": "Ireland",
+        "vencedor": "Monaco"
+    },
+    {
+        "_id": "ed1972",
+        "ano": 1972,
+        "organizacao": "United_Kingdom",
+        "vencedor": "Luxembourg"
+    },
+    {
+        "_id": "ed1973",
+        "ano": 1973,
+        "organizacao": "Luxembourg",
+        "vencedor": "Luxembourg"
+    },
+    {
+        "_id": "ed1974",
+        "ano": 1974,
+        "organizacao": "United_Kingdom",
+        "vencedor": "Sweden"
+    },
+    {
+        "_id": "ed1975",
+        "ano": 1975,
+        "organizacao": "Sweden",
+        "vencedor": "Netherlands"
+    },
+    {
+        "_id": "ed1976",
+        "ano": 1976,
+        "organizacao": "Netherlands",
+        "vencedor": "United_Kingdom"
+    },
+    {
+        "_id": "ed1977",
+        "ano": 1977,
+        "organizacao": "United_Kingdom",
+        "vencedor": "France"
+    },
+    {
+        "_id": "ed1978",
+        "ano": 1978,
+        "organizacao": "France",
+        "vencedor": "Israel"
+    },
+    {
+        "_id": "ed1979",
+        "ano": 1979,
+        "organizacao": "Israel",
+        "vencedor": "Israel"
+    },
+    {
+        "_id": "ed1980",
+        "ano": 1980,
+        "organizacao": "Netherlands",
+        "vencedor": "Ireland"
+    },
+    {
+        "_id": "ed1981",
+        "ano": 1981,
+        "organizacao": "Ireland",
+        "vencedor": "United_Kingdom"
+    },
+    {
+        "_id": "ed1982",
+        "ano": 1982,
+        "organizacao": "United_Kingdom",
+        "vencedor": "Germany"
+    },
+    {
+        "_id": "ed1983",
+        "ano": 1983,
+        "organizacao": "Germany",
+        "vencedor": "Luxembourg"
+    },
+    {
+        "_id": "ed1984",
+        "ano": 1984,
+        "organizacao": "Luxembourg",
+        "vencedor": "Sweden"
+    },
+    {
+        "_id": "ed1985",
+        "ano": 1985,
+        "organizacao": "Sweden",
+        "vencedor": "Norway"
+    },
+    {
+        "_id": "ed1986",
+        "ano": 1986,
+        "organizacao": "Norway",
+        "vencedor": "Belgium"
+    },
+    {
+        "_id": "ed1987",
+        "ano": 1987,
+        "organizacao": "Belgium",
+        "vencedor": "Ireland"
+    },
+    {
+        "_id": "ed1988",
+        "ano": 1988,
+        "organizacao": "Ireland",
+        "vencedor": "Switzerland"
+    },
+    {
+        "_id": "ed1989",
+        "ano": 1989,
+        "organizacao": "Switzerland",
+        "vencedor": "Yugoslavia"
+    },
+    {
+        "_id": "ed1990",
+        "ano": 1990,
+        "organizacao": "Yugoslavia",
+        "vencedor": "Italy"
+    },
+    {
+        "_id": "ed1991",
+        "ano": 1991,
+        "organizacao": "Italy",
+        "vencedor": "Sweden"
+    },
+    {
+        "_id": "ed1992",
+        "ano": 1992,
+        "organizacao": "Sweden",
+        "vencedor": "Ireland"
+    },
+    {
+        "_id": "ed1993",
+        "ano": 1993,
+        "organizacao": "Ireland",
+        "vencedor": "Ireland"
+    },
+    {
+        "_id": "ed1994",
+        "ano": 1994,
+        "organizacao": "Ireland",
+        "vencedor": "Ireland"
+    },
+    {
+        "_id": "ed1995",
+        "ano": 1995,
+        "organizacao": "Ireland",
+        "vencedor": "Norway"
+    },
+    {
+        "_id": "ed1996",
+        "ano": 1996,
+        "organizacao": "Norway",
+        "vencedor": "Ireland"
+    },
+    {
+        "_id": "ed1997",
+        "ano": 1997,
+        "organizacao": "Ireland",
+        "vencedor": "United_Kingdom"
+    },
+    {
+        "_id": "ed1998",
+        "ano": 1998,
+        "organizacao": "United_Kingdom",
+        "vencedor": "Israel"
+    },
+    {
+        "_id": "ed1999",
+        "ano": 1999,
+        "organizacao": "Israel",
+        "vencedor": "Sweden"
+    },
+    {
+        "_id": "ed2000",
+        "ano": 2000,
+        "organizacao": "Sweden",
+        "vencedor": "Denmark"
+    },
+    {
+        "_id": "ed2001",
+        "ano": 2001,
+        "organizacao": "Denmark",
+        "vencedor": "Estonia"
+    },
+    {
+        "_id": "ed2002",
+        "ano": 2002,
+        "organizacao": "Estonia",
+        "vencedor": "Latvia"
+    },
+    {
+        "_id": "ed2003",
+        "ano": 2003,
+        "organizacao": "Latvia",
+        "vencedor": "Turkey"
+    },
+    {
+        "_id": "ed2004",
+        "ano": 2004,
+        "organizacao": "Turkey",
+        "vencedor": "Ukraine"
+    },
+    {
+        "_id": "ed2005",
+        "ano": 2005,
+        "organizacao": "Ukraine",
+        "vencedor": "Greece"
+    },
+    {
+        "_id": "ed2006",
+        "ano": 2006,
+        "organizacao": "Greece",
+        "vencedor": "Finland"
+    },
+    {
+        "_id": "ed2007",
+        "ano": 2007,
+        "organizacao": "Finland",
+        "vencedor": "Serbia"
+    },
+    {
+        "_id": "ed2008",
+        "ano": 2008,
+        "organizacao": "Serbia",
+        "vencedor": "Russia"
+    },
+    {
+        "_id": "ed2009",
+        "ano": 2009,
+        "organizacao": "Russia",
+        "vencedor": "Norway"
+    },
+    {
+        "_id": "ed2010",
+        "ano": 2010,
+        "organizacao": "Norway",
+        "vencedor": "Germany"
+    },
+    {
+        "_id": "ed2011",
+        "ano": 2011,
+        "organizacao": "Germany",
+        "vencedor": "Azerbaijan"
+    },
+    {
+        "_id": "ed2012",
+        "ano": 2012,
+        "organizacao": "Azerbaijan",
+        "vencedor": "Sweden"
+    },
+    {
+        "_id": "ed2013",
+        "ano": 2013,
+        "organizacao": "Sweden",
+        "vencedor": "Denmark"
+    },
+    {
+        "_id": "ed2014",
+        "ano": 2014,
+        "organizacao": "Denmark",
+        "vencedor": "Austria"
+    },
+    {
+        "_id": "ed2015",
+        "ano": 2015,
+        "organizacao": "Austria",
+        "vencedor": "Sweden"
+    },
+    {
+        "_id": "ed2016",
+        "ano": 2016,
+        "organizacao": "Sweden",
+        "vencedor": "Ukraine"
+    },
+    {
+        "_id": "ed2017",
+        "ano": 2017,
+        "organizacao": "Ukraine",
+        "vencedor": "Portugal"
+    },
+    {
+        "_id": "ed2018",
+        "ano": 2018,
+        "organizacao": "Portugal",
+        "vencedor": "Israel"
+    },
+    {
+        "_id": "ed2019",
+        "ano": 2019,
+        "organizacao": "Israel",
+        "vencedor": "Netherlands"
+    },
+    {
+        "_id": "ed2020",
+        "ano": 2020,
+        "organizacao": "Netherlands",
+        "vencedor": ""
+    }
+]

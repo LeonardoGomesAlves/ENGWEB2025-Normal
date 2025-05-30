@@ -1,0 +1,53 @@
+extends layout
+
+block content
+  header
+    h1 País: #{pais}
+    p EW2025-NORMAL
+    p Realizado por: Leonardo Alves A104093
+    p
+      a.w3-button.w3-blue(href="/") ← Página Inicial
+  
+  main
+    .participacoes-section
+      h2 Participações
+      
+      if participacoes && participacoes.length > 0
+        table.w3-table-all
+          thead
+            tr
+              th ID da Edição
+              th Ano
+              th Nome da Música
+              th Nome do Intérprete
+              th Venceu
+          tbody
+            each participacao in participacoes
+              tr
+                td
+                  a(href=`/${participacao.edicaoId}`) #{participacao.edicaoId}
+                td #{participacao.ano}
+                td #{participacao.titulo}
+                td #{participacao.interprete}
+                td #{participacao.venceu}
+      else
+        p Este país não tem participações registadas.
+    
+    .organizacao-section
+      h2 Edições Organizadas
+      
+      if edicoesOrganizadas && edicoesOrganizadas.length > 0
+        table.w3-table-all
+          thead
+            tr
+              th ID da Edição
+              th Ano
+          tbody
+            each edicao in edicoesOrganizadas
+              tr
+                td
+                  a(href=`/${edicao._id}`) #{edicao._id}
+                td #{edicao.ano}
+      else
+        p Este país não organizou nenhuma edição.
+  

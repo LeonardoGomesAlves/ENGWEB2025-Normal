@@ -1,0 +1,58 @@
+extends layout
+
+block content
+  header
+    h1= title
+    p EW2025-NORMAL
+    p Realizado por: Leonardo Alves A104093
+    p
+      a.w3-button.w3-blue(href="/") ← Página Inicial
+  
+  main
+    .edicao-info
+      h2 Informação da Edição
+      
+      table.w3-table-all
+        tr
+          th Identificador
+          td= edicao._id
+        tr
+          th Ano da Edição
+          td= edicao.ano
+        tr
+          th País Organizador
+          td
+            if edicao.organizacao
+              a(href=`/paises/${edicao.organizacao}`) #{edicao.organizacao}
+            else
+              | -
+        tr
+          th País Vencedor
+          td
+            if edicao.vencedor && edicao.vencedor !== ""
+              a(href=`/paises/${edicao.vencedor}`) #{edicao.vencedor}
+            else
+              | -
+    
+    .musicas-section
+      h2 Músicas da Edição
+      
+      if musicas && musicas.length > 0
+        table.w3-table-all
+          thead
+            tr
+              th Nome da Música
+              th Nome do Intérprete
+              th País que Representa
+          tbody
+            each musica in musicas
+              tr
+                td= musica.titulo
+                td= musica.interprete
+                td
+                  if musica.pais
+                    a(href=`/paises/${musica.pais}`) #{musica.pais}
+                  else
+                    | -
+      else
+        p Não há músicas registadas para esta edição.

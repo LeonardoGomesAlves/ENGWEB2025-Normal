@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  header
+    h1= title
+    p EW2025-NORMAL 
+    p Realizado por: Leonardo Alves A104093
+  
+  main
+    h2 Lista de Edições
+    
+    if edicoes && edicoes.length > 0
+      table.w3-table-all 
+          tr
+            th ID da Edição
+            th Ano da Edição
+            th País Organizador
+            th País Vencedor
+            
+          each edicao in edicoes
+            tr
+              td
+                a(href=`/${edicao._id}`) #{edicao._id}
+              td= edicao.ano
+              td
+                if edicao.organizacao
+                  a(href=`/paises/${edicao.organizacao}`) #{edicao.organizacao}
+                else
+                  | -
+              td
+                if edicao.vencedor && edicao.vencedor !== ""
+                  a(href=`/paises/${edicao.vencedor}`) #{edicao.vencedor}
+                else
+                  | -
+    else
+      p Não há edições disponíveis.
+
